@@ -1,0 +1,26 @@
+# Normalize all text files to use LF (Unix style) in the repository
+* text=auto
+
+# Explicitly declare line endings for known file types
+*.js     text
+*.ts     text
+*.tsx    text
+*.css    text
+*.html   text
+*.json   text
+*.md     text
+*.yml    text
+*.yaml   text
+*.sh     text eol=lf
+
+# Binary files should not be modified
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+*.eot    binary
